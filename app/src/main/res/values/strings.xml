@@ -1,0 +1,58 @@
+<resources>
+    <string name="felevekMenuGomb">Félévek</string>
+    <string name="mentes">Mentés</string>
+    <string name="attr">Szűrési attribútum</string>
+    <string name="filter">Szűrés</string>
+    <string name="invalid_filter">Érvénytelen filter! Összes elem listázva</string>
+    <string name="filter_ok">Sikeres szűrés!</string>
+    <string name="nr_items_found">elemet találtam</string>
+    <string name="invalid_hatarido">Érvénytelen név vagy hét érték! Nem történt módosítás. </string>
+    <string name="hatarido_ok">Határidő felvéve!</string>
+    <string name="delete">Törlés</string>
+    <string name="not_found">Nem található ilyen elem az adatbázisban</string>
+    <string name="done">Teljesítve</string>
+    <string name="not_yet_done">Teljesítésre vár</string>
+    <string name="name_missing">Név nélkül nem menthető a módosítás!</string>
+    <string name="no_targy">Nincs felvéve egy tantárgy sem!</string>
+    <string name="kredit">&#160;kredit</string>
+    <string name="fullname">Tárgy teljes név</string>
+    <string name="shortname">Rövid név</string>
+    <string name="felev">Félév</string>
+    <string name="megjegyzes">Megjegyzés:</string>
+    <string name="ok">Kész</string>
+    <string name="cancel">Mégsem</string>
+    <string name="newFelev">Új félév</string>
+    <string name="impl_mistake">Implementációs hiba...</string>
+    <string name="newHatarido">Új határidő</string>
+    <string name="newTargy">Új tárgy</string>
+    <string name="themes">Témák</string>
+    <string name="nev">Név</string>
+    <string name="teljesitve">Teljesítve</string>
+    <string name="tipus">Típus</string>
+    <string name="targy">Tárgy</string>
+    <string name="datum">Dátum</string>
+    <string name="nr_het">Hét száma</string>
+    <string name="oraigeny">Készülési óraigény</string>
+    <string name="NA">n/a</string>
+    <string name="kreditszam">Kreditszám</string>
+    <string name="felevszam">Félév száma</string>
+    <string name="targyak">Tárgyak</string>
+    <string name="showPast">Múlt megjelenítése</string>
+    <string name="noShowPast">Múlt elrejtése</string>
+
+    <string-array name="tipusok">
+        <item>ZH</item>
+        <item>HF</item>
+        <item>Vizsga</item>
+        <item>Konzultáció</item>
+        <item>Egyéb</item>
+        <item>Labor</item>
+    </string-array>
+
+    <string-array name="filterek">
+        <item>Hét száma</item>
+        <item>Tárgy neve</item>
+        <item>Típus</item>
+        <item>Teljesítettség(0/1)</item>
+    </string-array>
+</resources>

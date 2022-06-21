@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dip">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nev"/>
+
+    <EditText
+        android:id="@+id/etNev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="pl: 5. félév"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dip"
+        android:text="@string/felevszam"/>
+
+    <EditText
+        android:id="@+id/etSzam"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:hint="pl: 5"/>
+
+</LinearLayout>

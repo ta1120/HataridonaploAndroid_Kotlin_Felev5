@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hu.bme.aut.hataridonaplo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ico_launcher"
+        android:label="Határidők"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MobWeb_NagyHF_Hataridonaplo">
+        <activity
+            android:name=".nezetek.TargyEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nezetek.HataridoEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nezetek.FelevActivity"
+            android:exported="false"
+            android:label="Félévek" />
+        <activity
+            android:name=".nezetek.TargyActivity"
+            android:exported="false"
+            android:label="Tárgyak" />
+        <activity
+            android:name=".nezetek.HataridoActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
