@@ -1,1 +1,1 @@
-"# HataridonaploAndroid_Kotlin_Felev5" 
+"Határidőnapló alkalmazás Androidra, Kotlin" 
